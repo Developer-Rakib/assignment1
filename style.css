@@ -13,8 +13,7 @@ img{
 a{
     text-decoration: none;
 }
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Roboto', sans-serif; */
+
 
 .container{
     max-width: 80%;
@@ -59,19 +58,14 @@ a{
     transition: 0.4s;
     font-family: 'Roboto', sans-serif;
 }
-.explor-btn a:hover{
-    
 
-}
 
 /* goal section */
 
 .myGoal-Section{
     padding: 23px 0px; 
 }
-.goalHading{
-    /* padding: 100px 0px; */
-}
+
 .goalHading h1{
     color: rgb(4, 4, 75);
     font-size: 47px;
@@ -150,26 +144,6 @@ a{
 }
 
 
-/* footer secton */
-
-.footer-section{
-    color: white;
-    background-color: rgb(26, 25, 29);
-    text-align: center;
-    padding: 20px;
-}
-.footer-section h1{
-    font-family: 'Dancing Script', cursive;
-
-}
-.footer-section h1 span{
-    color: #ff4c4f;
-}
-.footer-section p{
-    color: white;
-    font-size: 12px;
-}
-
 /* contact-section */
 
 .contact-section{
@@ -192,32 +166,30 @@ a{
     height: 419px;
 }
 .form{
-    width: 45%;;
+    width: 39%;
     background-color: #fdebeb;
     box-sizing: border-box;
     padding: 7px 34px;
-    margin-left: 72px;
+    margin-left: 112px;
 
 }
 
 .form input{
-    padding: 5px 132px;
+    padding: 5px 105px;
     margin-bottom: 35px;
     border: none;
 }
 .form h3{
     color: rgb(4, 4, 75);
-    font-size: 33px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 900;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-.form input:nth-child(1){
-
+label{
+    color: rgb(56, 55, 55);
+    font-weight: 600;
 }
-.form input:nth-child(2){}
-.form input:nth-child(3){}
-.form input:nth-child(4){}
 .form button{
     font-size: 15px;
     width: 100%;
@@ -230,3 +202,26 @@ a{
     height: 37px;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* footer secton */
+
+.footer-section{
+    color: white;
+    background-color: rgb(26, 25, 29);
+    text-align: center;
+    padding: 20px;
+}
+.footer-section h1{
+    font-family: 'Dancing Script', cursive;
+
+}
+.footer-section h1 span{
+    color: #ff4c4f;
+}
+.footer-section p{
+    color: white;
+    font-size: 12px;
+}
+
+
